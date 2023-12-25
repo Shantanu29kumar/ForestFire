@@ -2,7 +2,8 @@ import pickle
 from flask import Flask, request, render_template
 from sklearn.preprocessing import StandardScaler
 
-app = Flask(__name__, static_url_path='/static')
+application = Flask(__name__, static_url_path='/static')
+app = application
 
 ridge_model = pickle.load(open('models/ridge.pkl', 'rb'))
 Standard_scaler_model = pickle.load(open('models/scaler.pkl', 'rb'))
