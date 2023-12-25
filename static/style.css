@@ -1,0 +1,60 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #E36414; /* Deep blue background color */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #fff; /* Matte blue color */
+}
+
+.login {
+    background-color: #B80000;
+    padding: 20px;
+    border-radius: 15px; /* More rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+.note {
+    text-align: center;
+    color: #fff; /* Text color for better visibility on dark background */
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+input {
+    width: 48%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px; /* Rounded corners */
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #FF9800; /* Matte blue color */
+    color: #fff;
+    border: none;
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FF9800; /* Darker shade on hover */
+}
